@@ -28,7 +28,7 @@ function AboutMe() {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           <div>
             <p className="text-white mb-4 leading-relaxed text-sm sm:text-base md:text-lg">
-              I'm Francis Kierzkiewicz, a young software developer focused on building modern, user-friendly digital products. I'm 15 years old (born October 2010) and an American national, currently pursuing my education while actively developing real-world software projects. I've been coding for over five years, starting at the age of 10, and I'm driven by curiosity, consistency, and the desire to turn ideas into usable products.
+              I'm Francis, a young software developer focused on building modern, user-friendly digital products. I'm 15 years old (born October 2010) and an American national, currently pursuing my education while actively developing real-world software projects. I've been coding for over five years, starting at the age of 10, and I'm driven by curiosity, consistency, and the desire to turn ideas into usable products.
             </p>
             <p className="text-white mb-4 leading-relaxed text-sm sm:text-base md:text-lg">
               I've lived in the United States and Sri Lanka, and for most of my life I've been based in Poland. Growing up across different countries and cultures shaped how I think about technology — especially how important accessibility, clarity, and simplicity are when building software for real people. That global perspective strongly influences how I design and structure my work.
