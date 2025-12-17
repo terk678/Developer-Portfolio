@@ -6,7 +6,10 @@
     <script type="text/javascript">
       // Single Page Apps for GitHub Pages
       // https://github.com/rafgraph/spa-github-pages
-      var pathSegmentsToKeep = 1;
+      // Support both:
+      // - project pages: https://user.github.io/Developer-Portfolio/
+      // - custom domain root: https://franciskierzkiewicz.dev/
+      var pathSegmentsToKeep = window.location.pathname.startsWith('/Developer-Portfolio/') ? 1 : 0;
       var l = window.location;
       l.replace(
         l.protocol + '//' + l.hostname + (l.port ? ':' + l.port : '') +
